@@ -1,0 +1,136 @@
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body and main container styling */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Centering the form container */
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+  background-color: #e9ecef;
+}
+
+/* Form container */
+.form-container {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+/* Form title */
+.form-title {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Input group container for better spacing */
+.input-group {
+  margin-bottom: 15px;
+  text-align: left;
+  position: relative;
+}
+
+/* Input field styling */
+.input-field {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #ddd;
+  border-radius: 4px;
+  outline: none;
+  transition: border 0.3s ease;
+}
+
+/* Input field focus state */
+.input-field:focus {
+  border-color: #007bff;
+}
+
+/* Error message styling */
+.error-message {
+  color: red;
+  font-size: 12px;
+  margin-top: 5px;
+  display: block;
+  text-align: left;
+}
+
+/* Submit button styling */
+.submit-button {
+  width: 100%;
+  padding: 12px;
+  background-color: #007bff;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Submit button hover state */
+.submit-button:hover {
+  background-color: #0056b3;
+}
+
+/* Disabled button state */
+.submit-button:disabled {
+  background-color: #b0c4de;
+  cursor: not-allowed;
+}
+
+/* Result container */
+.result-container {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #333;
+  font-weight: bold;
+  text-align: center;
+}
+
+.result-image {
+  margin-top: 20px;
+  width: 100%;
+  height: auto;
+  max-width: 300px;
+  border-radius: 8px;
+}
+
+/* Share to WhatsApp button */
+.share-container {
+  margin-top: 20px;
+}
+
+.whatsapp-button {
+  background-color: #25d366;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.whatsapp-button:hover {
+  background-color: #128c7e;
+}
