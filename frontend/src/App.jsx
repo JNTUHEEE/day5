@@ -58,7 +58,7 @@ function App() {
   // Function to calculate the result and fetch the appropriate image
   const calculateFlames = () => {
     if (firstname && secondname && !firstNameError && !secondNameError) {
-      axios.post('http://localhost:3000/flames',{firstname,secondname}).then((res)=>{
+      axios.post('https://day5-rps5.onrender.com/flames',{firstname,secondname}).then((res)=>{
         console.log(res.data)
       })
       const remainingLetters = removeCommonLetters(firstname, secondname);
